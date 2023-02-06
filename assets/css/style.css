@@ -1,0 +1,90 @@
+html {
+  background-color: #2F343F;
+  background-image: url("./assets/img/topo-pattern-5.png");
+  background-size: 524px 515px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 14pt;
+  letter-spacing: .026rem;
+  color: #eee;
+  font-smooth: subpixel-antialiased;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+main {
+  position: relative;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #FFC453;
+  text-transform: uppercase;
+  letter-spacing: .16rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #93BEFF;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #c895de;
+  margin-top: 2rem;
+}
+
+p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+strong {
+  letter-spacing: .04rem;
+}
+
+li {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+  border: solid 1px #000b;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+  html {
+    font-size: 3vw;
+  }
+  
+  main {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+
+
